@@ -2,7 +2,7 @@ name: "Publish"
 on:
   push:
     branches:
-      - master
+     - gh-pages
 jobs:
   emanote:
     runs-on: ubuntu-latest
